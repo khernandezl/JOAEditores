@@ -17,6 +17,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { SearchComponent } from './pages/search/search.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LanzamientosComponent } from './pages/lanzamientos/lanzamientos.component';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LanzamientosComponent } from './pages/lanzamientos/lanzamientos.compone
     ItemComponent,
     SearchComponent,
     ContactComponent,
-    LanzamientosComponent
+    LanzamientosComponent,
+    ComponentNameComponent
   ],
   imports: [
     BrowserModule,
